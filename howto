@@ -1,0 +1,6 @@
+#so the way to find all the info from nba.com is http://data.nba.net/10s/prod/v1/today.json
+#you can find lead_tracker here "/prod/v1/{{gameDate}}/{{gameId}}_lead_tracker_{{periodNum}}.json"
+#you can also find box score data "/prod/v1/{{gameDate}}/{{gameId}}_boxscore.json"
+#so basically all you have to find is the gameId
+#use time.sleep to block the program from executing for a certain amount of time
+#use webbrowser.open to open a website from a python program
